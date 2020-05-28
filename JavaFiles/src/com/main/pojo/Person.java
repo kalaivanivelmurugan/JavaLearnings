@@ -16,14 +16,9 @@ public class Person
 		this.gender = p3;
 	}
 
-	/*static void print()
-	{
-		System.out.println(Person.isHavingBody);
-	}*/
 
 	public void printPerson()
 	{
 		System.out.println(this.name + " " + this.age + " " + this.gender + " " + Person.isHavingBody);
-//		Person.main(jega,kalai);
 	}
 }
