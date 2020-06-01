@@ -2,7 +2,7 @@ package com.main.pojo;
 
 public class Person
 {
-	static boolean isHavingBody = true;
+      //static boolean isHavingBody = true;
 
 	String name;
 	int age;
@@ -19,6 +19,6 @@ public class Person
 
 	public void printPerson()
 	{
-		System.out.println(this.name + " " + this.age + " " + this.gender + " " + Person.isHavingBody);
+		System.out.println(this.name + " " + this.age + " " + this.gender + " " );
 	}
 }
