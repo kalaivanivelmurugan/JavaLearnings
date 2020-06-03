@@ -6,7 +6,8 @@ public class Person
 
 	String name;
 	int age;
-	String gender;
+        String gender;
+	
 
 	//Constructor doesn't contain a return type
 	public Person(String p1, int p2, String p3)
